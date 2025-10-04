@@ -5,16 +5,19 @@ A complete command-line bug tracking application built with Java 11+ and Maven. 
 ## Features
 
 ### User Management
+
 - **Three User Roles**: PROJECT_MANAGER, DEVELOPER, and TESTER
 - **Simple Login System**: Username-based authentication with pre-populated demo users
 - **Role-based Permissions**: Different features available based on user role
 
 ### Project Management
+
 - **Create Projects**: Project Managers can create new projects with name and description
 - **List Projects**: All users can view available projects
 - **Project Selection**: Navigate into projects to manage bugs
 
 ### Bug Tracking
+
 - **Report Bugs**: Testers can report new bugs with title, description, and priority
 - **Assign Bugs**: Project Managers can assign bugs to developers
 - **Update Status**: Developers can update status of their assigned bugs
@@ -24,6 +27,7 @@ A complete command-line bug tracking application built with Java 11+ and Maven. 
 - **Comments**: All users can add timestamped comments to bugs
 
 ### Data Persistence
+
 - **JSON Storage**: All data stored in `bugs.json` file
 - **Auto-save**: Changes automatically saved to file
 - **Default Data**: Application comes with sample data for immediate testing
@@ -37,11 +41,13 @@ A complete command-line bug tracking application built with Java 11+ and Maven. 
 
 1. **Clone or extract the project files**
 2. **Navigate to the project directory**:
+
    ```bash
    cd bug-tracker
    ```
 
 3. **Compile the project**:
+
    ```bash
    mvn clean compile
    ```
@@ -52,6 +58,7 @@ A complete command-line bug tracking application built with Java 11+ and Maven. 
    ```
 
 Alternatively, you can compile and run in one step:
+
 ```bash
 mvn clean compile exec:java -Dexec.mainClass="com.example.bugtracker.Main"
 ```
@@ -60,33 +67,37 @@ mvn clean compile exec:java -Dexec.mainClass="com.example.bugtracker.Main"
 
 The application comes with pre-configured demo users for testing:
 
-| Username | Role | Permissions |
-|----------|------|-------------|
-| manager1 | PROJECT_MANAGER | Create projects, assign bugs, view all |
-| dev1     | DEVELOPER | Update assigned bug status, view all, comment |
-| dev2     | DEVELOPER | Update assigned bug status, view all, comment |
-| tester1  | TESTER | Report bugs, close resolved bugs, view all, comment |
-| tester2  | TESTER | Report bugs, close resolved bugs, view all, comment |
+| Username | Role            | Permissions                                         |
+| -------- | --------------- | --------------------------------------------------- |
+| manager1 | PROJECT_MANAGER | Create projects, assign bugs, view all              |
+| dev1     | DEVELOPER       | Update assigned bug status, view all, comment       |
+| dev2     | DEVELOPER       | Update assigned bug status, view all, comment       |
+| tester1  | TESTER          | Report bugs, close resolved bugs, view all, comment |
+| tester2  | TESTER          | Report bugs, close resolved bugs, view all, comment |
 
 ## Usage Guide
 
 ### Starting the Application
+
 1. Run the application using Maven
 2. Enter a username from the demo users list
 3. Navigate through the menu-driven interface
 
 ### Main Menu Options
+
 - **Select Project**: Browse and select from available projects
 - **Create New Project**: (Project Managers only) Create a new project
 - **Exit**: Close the application
 
 ### Project Menu Options
+
 - **View All Bugs**: Display all bugs in the current project
 - **Report a New Bug**: (Testers only) Create a new bug report
 - **Select a Bug by ID**: Navigate to a specific bug
 - **Back to Main Menu**: Return to main menu
 
 ### Bug Menu Options
+
 - **View Full Details**: See complete bug information and comments
 - **Add a Comment**: Add a timestamped comment to the bug
 - **Assign Bug**: (Project Managers only) Assign bug to a developer
@@ -95,12 +106,14 @@ The application comes with pre-configured demo users for testing:
 - **Back to Project Menu**: Return to project menu
 
 ### Bug Status Workflow
+
 1. **NEW**: Initial state when bug is reported
 2. **IN_PROGRESS**: Developer has started working on the bug
 3. **RESOLVED**: Developer has fixed the bug
 4. **CLOSED**: Tester has verified the fix
 
 ### Priority Levels
+
 - **LOW**: Minor issues that don't affect core functionality
 - **MEDIUM**: Issues that affect functionality but have workarounds
 - **HIGH**: Critical issues that significantly impact functionality
@@ -158,6 +171,7 @@ The application follows a layered architecture pattern:
 ## Future Enhancements
 
 Potential areas for expansion:
+
 - User registration and password authentication
 - Email notifications for bug assignments
 - Bug filtering and search functionality
