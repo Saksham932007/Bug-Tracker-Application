@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "manager1",
+      "role": "PROJECT_MANAGER"
+    },
+    {
+      "id": "2",
+      "username": "dev1",
+      "role": "DEVELOPER"
+    },
+    {
+      "id": "3",
+      "username": "dev2",
+      "role": "DEVELOPER"
+    },
+    {
+      "id": "4",
+      "username": "tester1",
+      "role": "TESTER"
+    },
+    {
+      "id": "5",
+      "username": "tester2",
+      "role": "TESTER"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "E-commerce Website",
+      "description": "Main company e-commerce platform"
+    },
+    {
+      "id": "2",
+      "name": "Mobile App",
+      "description": "iOS and Android mobile application"
+    },
+    {
+      "id": "3",
+      "name": "API Service",
+      "description": "Backend API for all company services"
+    }
+  ],
+  "bugs": [
+    {
+      "id": "1",
+      "title": "Login page not loading",
+      "description": "The login page fails to load when accessed from mobile devices",
+      "projectId": "1",
+      "reporterId": "4",
+      "status": "NEW",
+      "priority": "HIGH",
+      "createdDate": "2025-10-02T13:10:55.281494892",
+      "updatedDate": "2025-10-04T13:10:55.283021417",
+      "comments": [
+        {
+          "authorId": "4",
+          "text": "Reproduced on iPhone 12 with Safari",
+          "timestamp": "2025-10-03T13:10:55.281494892"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Checkout process slow",
+      "description": "The checkout process takes too long to complete, causing user frustration",
+      "projectId": "1",
+      "reporterId": "5",
+      "assigneeId": "2",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "createdDate": "2025-10-01T13:10:55.281494892",
+      "updatedDate": "2025-10-04T13:10:55.283107482",
+      "comments": []
+    },
+    {
+      "id": "3",
+      "title": "API timeout errors",
+      "description": "API calls are timing out frequently during peak hours",
+      "projectId": "3",
+      "reporterId": "4",
+      "status": "NEW",
+      "priority": "HIGH",
+      "createdDate": "2025-10-03T13:10:55.281494892",
+      "updatedDate": "2025-10-03T13:10:55.281494892",
+      "comments": []
+    }
+  ]
+}

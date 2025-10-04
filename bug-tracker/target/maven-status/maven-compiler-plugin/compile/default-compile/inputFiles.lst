@@ -1,0 +1,13 @@
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/model/enums/Status.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/service/UserService.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/model/Comment.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/model/enums/Priority.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/model/User.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/ui/ConsoleUI.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/service/ProjectService.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/repository/DataRepository.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/model/Bug.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/model/enums/Role.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/Main.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/model/Project.java
+/home/sakshamkapoor/Projects/bug/bug-tracker/src/main/java/com/example/bugtracker/service/BugService.java
